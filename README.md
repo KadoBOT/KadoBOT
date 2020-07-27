@@ -1,4 +1,4 @@
-Hey there! I'm [KadoBOT](https://www.linkedin.com/in/rambrogi/) 👊
+Hey there! I'm [**KadoBOT**](https://www.linkedin.com/in/rambrogi/) 👊
 
 I'm a self-taught polyglot developer living in the Netherlands.
 - Software engineer **[@Adyen](https://github.com/Adyen)**
