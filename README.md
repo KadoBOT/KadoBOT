@@ -16,7 +16,9 @@ I'm a self-taught polyglot developer living in the Netherlands.
 - Questions? Drop me a message on [Linkedin](https://www.linkedin.com/in/rambrogi/) or [open an issue](https://github.com/KadoBOT/KadoBOT/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
 ## My stats
-[![KadoBOT's github stats](https://github-readme-stats.vercel.app/api?username=KadoBOT&count_private=true&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)  
-
-## My most used languages on GH
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kadobot&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=KadoBOT&hide_title=true&count_private=true&show_icons=true&theme=synthwave" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kadobot&theme=synthwave&layout=compact" />
+</a>
