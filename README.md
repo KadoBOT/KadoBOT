@@ -17,7 +17,7 @@ I'm a self-taught polyglot developer living in the Netherlands.
 
 ## My stats
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=KadoBOT&hide_title=true&count_private=true&show_icons=true&theme=synthwave" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=KadoBOT&hide_rank=true&hide_title=true&count_private=true&show_icons=true&theme=synthwave" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kadobot&theme=synthwave&layout=compact" />
