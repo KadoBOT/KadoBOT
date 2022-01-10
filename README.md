@@ -15,6 +15,10 @@ I'm a self-taught polyglot developer living in the Netherlands.
 
 - Questions? Drop me a message on [Linkedin](https://www.linkedin.com/in/rambrogi/) or [open an issue](https://github.com/KadoBOT/KadoBOT/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
+## Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dracula)](https://github.com/ryo-ma/github-profile-trophy)
+
 ## My stats
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=KadoBOT&hide_rank=true&hide_title=true&count_private=true&show_icons=true&theme=synthwave" />
