@@ -13,3 +13,13 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Europe/Amsterdam
+          plugin_languages_indepth: yes
+          plugin_topics: yes
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_habits: yes
+          plugin_notable: yes
+          plugin_contributors: yes
+          
+          
