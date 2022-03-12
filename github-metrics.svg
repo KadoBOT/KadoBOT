@@ -39,10 +39,10 @@
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -264,8 +264,8 @@
                             <div class="label" title="The GitHub API allows you to build applications that integrate with GitHub.">github api</div>
                             <div class="label" title="Front end is the programming and layout that people see and interact with.">front end</div>
                             <div class="label" title="Automate your code review with style, quality, security, and test‑coverage checks when you need them.">code quality</div>
-                            <div class="label" title="Kubernetes is an open source system for automating deployment, scaling, and management of containerized applications.">kubernetes</div>
                             <div class="label" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.">typescript</div>
+                            <div class="label" title="Kubernetes is an open source system for automating deployment, scaling, and management of containerized applications.">kubernetes</div>
                             <div class="label" title="Ensure your code meets quality standards and ship with confidence.">code review</div>
                             <div class="label" title="Rust is a systems programming language created by Mozilla.">rust</div>
                             <div class="label" title="Kotlin, Security, Firebase, GraphQL, es6, npm, Ansible, Vim, Express, Continuous integration, Babel, ESLint, Emacs, qsharp">and 14 more...</div>
@@ -435,7 +435,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="15.966803559206017 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="16.009240246406563 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -657,7 +657,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 226k out of 287m repositories</span>
+                                    <span class="gh">ranked 226k out of 288m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 118 stars</div>
                             </div>
@@ -703,7 +703,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 1.28m out of 287m repositories</span>
+                                    <span class="gh">ranked 1.28m out of 288m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 6 times</div>
                             </div>
@@ -902,7 +902,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 11 Mar 2022, 02:11:56 (timezone Europe/Amsterdam) with lowlighter/metrics@3.21.0</span>
+                <span>Last updated 12 Mar 2022, 02:03:26 (timezone Europe/Amsterdam) with lowlighter/metrics@3.21.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
