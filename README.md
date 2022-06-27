@@ -11,7 +11,8 @@ I'm a self-taught polyglot developer living in the Netherlands.
 <code><img title="Rust" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png"></code>
 <code><img title="TypeScript" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
 <code><img title="Google Cloud Platform" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/google/google.png"></code>
-<code><img title="Emacs" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/emacs/emacs.png"></code>
+<code><img title="AWS" height="20" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png"></code>
+
 
 - Questions? Drop me a message on [Linkedin](https://www.linkedin.com/in/rambrogi/) or [open an issue](https://github.com/KadoBOT/KadoBOT/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
