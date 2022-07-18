@@ -1,7 +1,7 @@
 # Hey there! I'm [**KadoBOT**](https://www.linkedin.com/in/rambrogi/) 👊
 
 I'm a self-taught polyglot developer living in the Netherlands.
-- Backend Developer at WarnerMedia
+- Backend Developer at Warner Bros. Discovery
 - Passionate about functional, high-performant and clean code.
 - Generalist: <code><img title="Javascript" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img title="VIM" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vim/vim.png"></code>
