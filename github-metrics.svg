@@ -259,7 +259,7 @@
                             <div class="label" title="The GitHub API allows you to build applications that integrate with GitHub.">github api</div>
                             <div class="label" title="Front end is the programming and layout that people see and interact with.">front end</div>
                             <div class="label" title="Bash is a shell and command language interpreter for the GNU operating system.">bash</div>
-                            <div class="label" title="Code quality, JSON, Code review, Terminal, TypeScript, Kubernetes, Rust, Security, macOS, Framework, Firebase, Ansible, npm, Markdown, Continuous integration, REST API, Shell, vim, Express, es6, Serverless, Lua, ESLint, Emacs, Localization (l10n), webgpu, qsharp, applemusic">and 28 more...</div>
+                            <div class="label" title="Code quality, JSON, Code review, Terminal, TypeScript, Kubernetes, Rust, Security, macOS, Framework, Firebase, Ansible, npm, Continuous integration, Markdown, REST API, Shell, vim, Express, es6, Serverless, Lua, ESLint, Emacs, Localization (l10n), webgpu, qsharp, applemusic">and 28 more...</div>
                         </div>
                     </section>
                 </div>
@@ -379,7 +379,7 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     developer
-                                    <span class="gh">ranked 127k out of 148m users</span>
+                                    <span class="gh">ranked 128k out of 148m users</span>
                                 </div>
                                 <div class="text">Published 126 public repositories</div>
                             </div>
@@ -467,7 +467,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="124.93360711841207 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="125.01848049281313 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -648,7 +648,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 231k out of 216m repositories</span>
+                                    <span class="gh">ranked 231k out of 212m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 183 stars</div>
                             </div>
@@ -727,7 +727,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 1.94m out of 216m repositories</span>
+                                    <span class="gh">ranked 1.94m out of 212m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 5 times</div>
                             </div>
@@ -979,7 +979,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Nov 2024, 01:16:51 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 9 Nov 2024, 01:16:45 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
