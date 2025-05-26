@@ -255,7 +255,7 @@
                             <div class="label" title="The GitHub API allows you to build applications that integrate with GitHub.">github api</div>
                             <div class="label" title="Front end is the programming and layout that people see and interact with.">front end</div>
                             <div class="label" title="Bash is a shell and command language interpreter for the GNU operating system.">bash</div>
-                            <div class="label" title="Code quality, JSON, Code review, Terminal, TypeScript, Rust, Kubernetes, Security, macOS, Framework, Firebase, Ansible, npm, Markdown, Continuous integration, REST API, Shell, Express, vim, es6, Serverless, Lua, ESLint, Emacs, Localization (l10n), webgpu, qsharp, applemusic">and 28 more...</div>
+                            <div class="label" title="Code quality, JSON, Code review, Terminal, TypeScript, Rust, Kubernetes, Security, macOS, Framework, Firebase, Ansible, npm, Markdown, Continuous integration, REST API, Shell, Express, vim, Serverless, es6, Lua, ESLint, Emacs, Localization (l10n), webgpu, qsharp, applemusic">and 28 more...</div>
                         </div>
                     </section>
                 </div>
@@ -280,7 +280,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 25 May 2025, 02:22:01 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 26 May 2025, 02:20:35 (timezone Europe/Amsterdam) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
