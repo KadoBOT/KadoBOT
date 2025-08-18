@@ -23,14 +23,12 @@ jobs:
           base: header, activity, community, repositories, metadata
           template: classic
 
-          # Plugins (safe for user/profile context)
+          # Keep only plugins that are safe right now
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_topics: yes
           plugin_habits: yes
           plugin_notable: yes
 
-          # Achievements: keep but ignore the broken "manager" badge
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_ignored: manager
+          # TEMP: achievements disabled due to Projects Classic breakage
+          plugin_achievements: no
