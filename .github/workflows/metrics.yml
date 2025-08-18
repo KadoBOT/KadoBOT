@@ -1,37 +1,36 @@
 # .github/workflows/metrics.yml
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]   # daily
+  schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 
 jobs:
-  github-metrics:
+  profile-metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # REQUIRED to commit the SVG since 2023
+      contents: write
     steps:
-      - name: Generate GitHub metrics
+      - name: Generate profile metrics SVG
         uses: lowlighter/metrics@v3.34
         with:
-          # Auth + basics
           user: ${{ github.repository_owner }}
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           output_action: skip-if-only-metadata-changed
           config_timezone: Europe/Amsterdam
           config_twemoji: yes
-
-          # Base sections (safe defaults)
           base: header, activity, community, repositories, metadata
           template: classic
 
-          # Your plugins
+          # Plugins (safe for user/profile context)
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_topics: yes
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
           plugin_habits: yes
           plugin_notable: yes
-          plugin_contributors: yes
+
+          # Achievements: keep but ignore the broken "manager" badge
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_ignored: manager
