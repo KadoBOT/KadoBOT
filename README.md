@@ -16,4 +16,11 @@ I'm a self-taught polyglot developer living in the Netherlands.
 
 - Questions? Drop me a message on [Linkedin](https://www.linkedin.com/in/rambrogi/) or [open an issue](https://github.com/KadoBOT/KadoBOT/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
-![Metrics](/github-metrics.svg)
+<!-- Full card -->
+![Metrics](./github-metrics.svg?ts=3)
+
+<!-- Thin language strip -->
+![Top Languages](./github-metrics-langs.svg?ts=3)
+
+<!-- Heatmap banner -->
+![Activity](./github-metrics-heat.svg?ts=3)
