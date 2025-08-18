@@ -1,4 +1,3 @@
-# .github/workflows/metrics.yml
 name: Metrics
 on:
   schedule: [{cron: "0 0 * * *"}]
@@ -6,29 +5,77 @@ on:
   push: {branches: ["master", "main"]}
 
 jobs:
-  profile-metrics:
+  profile:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Generate profile metrics SVG
+      - name: Full profile card
         uses: lowlighter/metrics@v3.34
         with:
           user: ${{ github.repository_owner }}
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           output_action: skip-if-only-metadata-changed
+
+          # Aesthetics
+          template: classic
           config_timezone: Europe/Amsterdam
           config_twemoji: yes
-          base: header, activity, community, repositories, metadata
-          template: classic
+          config_animations: yes
 
-          # Keep only plugins that are safe right now
+          # Sections
+          base: header, activity, community, repositories, metadata
+
+          # Plugins (stable + visually strong)
           plugin_languages: yes
           plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_threshold: 2%        # hide tiny slivers
+          plugin_languages_limit: 12
+          plugin_languages_ignored: >-
+            html, css, scss, less, tex, qml, makefile, shell, batchfile, cmake
           plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: icons               # icon grid = cleaner visual
           plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes                 # trims empty days for neatness
           plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit, issue, pull_request, repository
 
-          # TEMP: achievements disabled due to Projects Classic breakage
+          # Known-bad plugin kept off
           plugin_achievements: no
+
+      - name: Languages deep-dive
+        uses: lowlighter/metrics@v3.34
+        with:
+          user: ${{ github.repository_owner }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics-langs.svg
+          template: classic
+          config_twemoji: yes
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          plugin_languages_limit: 16
+          plugin_languages_threshold: 1%
+          plugin_languages_ignored: >-
+            html, css, scss, less, tex, qml, makefile, shell, batchfile, cmake
+
+      - name: Activity heatmap banner
+        uses: lowlighter/metrics@v3.34
+        with:
+          user: ${{ github.repository_owner }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics-heat.svg
+          template: classic
+          config_twemoji: yes
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
